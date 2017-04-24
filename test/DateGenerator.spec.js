@@ -17,4 +17,12 @@ describe('DateGenerator', function() {
         }
     });
 
+    it('getRandomDate returns between given dates for default values', function() {
+        for(let i = 0; i < 100; i++) {
+            let currentDate = new Date();
+            let date = DateGenerator.getRandomDateInRange();
+            assert.equal(true, date - currentDate < 10);
+        }
+    });
+
 });
