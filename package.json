@@ -1,7 +1,8 @@
 {
   "name": "random-date-generator",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Generator of random dates",
+  "keywords": ["javascript", "date", "generator", "module", "random", "node"],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
